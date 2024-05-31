@@ -27,6 +27,7 @@ function App() {
       <p>{a > 15 ? 'Its valid ' : 'Its not valid'}</p>
 
       <h1>Object concept.</h1>
+
       <p>
         Result of the Object concept: Car details: {carObj.name} |{' '}
         {carObj.color} | {carObj.make}
