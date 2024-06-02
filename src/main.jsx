@@ -9,6 +9,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const friends = ['Ram', 'Shyam', 'Hari', 'Sita'];
 root.render(
   <React.StrictMode>
-    <App name='adil' age={29} isMarried={false} arr={friends} />
+    <App />
   </React.StrictMode>
 );
