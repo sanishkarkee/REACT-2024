@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App1 } from './App';
+import { MyClass } from './MyClass';
 import './index.css';
 
-//video 9 -  Use of prop-types
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <App1 />
+    {
+      <MyClass name='Adil' age={23}>
+        <h2>Child no 1</h2>
+      </MyClass>
+
+      /*<MyClass name='Anit' age={22}>
+      <button type='submit'>Submit</button>
+    </MyClass>
+
+    <MyClass name='Kumar' age={26}>
+      <ol>
+        <li>Ali</li>
+        <li>Zain</li>
+        <li>noman</li>
+      </ol>
+    </MyClass> */
+    }
+
+    {/* <MyClass2 /> */}
   </React.StrictMode>
 );
