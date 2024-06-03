@@ -1,22 +1,39 @@
 import './App.css';
 
-//video 10 - Arrow Functions
-
-// function App() {
+// function App1() {
 //   return (
 //     <>
-//       <h1>Learning never ends</h1>
+//       <h1>Sanish Karki</h1>
+//       <App2 />
 //     </>
 //   );
 // }
 
-const App = () => {
+// function App2() {
+//   return (
+//     <>
+//       <h1>Learning react is cool</h1>
+//     </>
+//   );
+// }
+
+//  OR  yo garda chai main.jsx ma " import { App1,App2 } from './App'; " garnu parxa
+
+export function App1() {
   return (
     <>
       <h1>Sanish Karki</h1>
-      <h1>Learning react</h1>
+      <App2 />
     </>
   );
-};
+}
 
-export default App;
+function App2() {
+  return (
+    <>
+      <h1>Learning react is cool</h1>;
+    </>
+  );
+}
+
+// export { App1 }; // yo leknu mann xaina bhane function keyword agadi export lekhda ni hunxa
