@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     {
       <MyClass name='Adil' age={23}>
-        <h2>Child no 1</h2>
+        <h2>Child props no 1</h2>
       </MyClass>
 
       /*<MyClass name='Anit' age={22}>
