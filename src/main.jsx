@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Employee from './Employee';
+import Customer from './Customer';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    {/* 1) data directly state mai define garera use gariyeko case */}
-    {/* <Employee />  */}
-
-    {/* 2) If data is passed through props */}
-    <Employee name='adil' />
+    <Customer name='Amit' age={23} />
   </React.StrictMode>
 );
 /*
