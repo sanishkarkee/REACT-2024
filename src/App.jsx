@@ -4,8 +4,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <h1>Class Component</h1>
-        <h1>Learning never ends</h1>
+        <h1>This is App.jsx</h1>
       </>
     );
   }
