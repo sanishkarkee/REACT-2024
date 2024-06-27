@@ -2,28 +2,22 @@ import React from 'react';
 import StudentCompo from './StudentCompo';
 
 function Students() {
-  //   const students = ['Adil', 'Kumar', 'Prem', 'Zain'];
+  // const students = ['Adil', 'Kumar', 'Prem', 'Zain'];
 
-  //   const numbers = [2, 4, 6, 8];
+  // let studentNames = students.map((std, index) => <li key={index}> {std} </li>);
 
   const students = [
-    { name: 'Ali', age: 23 },
-    { name: 'Kumar', age: 25 },
-    { name: 'Prem', age: 27 },
+    { id: 1, name: 'Ali', age: 23 },
+    { id: 2, name: 'Kumar', age: 25 },
+    { id: 3, name: 'Prem', age: 27 },
   ];
 
   return (
     <>
-      {/* {students.map((std) => (
-        <h1>{std}</h1>
-      ))} */}
-
-      {/* {numbers.map((num) => (
-        <h1>{(num = num * 2)}</h1>
-      ))} */}
+      {/* <ul>{studentNames}</ul> */}
 
       {students.map((std) => (
-        <StudentCompo stdData={std} />
+        <StudentCompo key={std.id} stdData={std} />
       ))}
     </>
   );
