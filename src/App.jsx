@@ -1,10 +1,12 @@
 import React from 'react';
-import CSSstylesheet from './CSSstylesheet';
+import StyleSheet1 from './StyleSheet1';
+import StyleSheet2 from './StyleSheet2';
 
 function App() {
   return (
     <>
-      <CSSstylesheet check={false} />
+      <StyleSheet1 />
+      <StyleSheet2 />
     </>
   );
 }
