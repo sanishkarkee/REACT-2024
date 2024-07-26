@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
-import ControlledForm from './ControlledForm';
+import ControlledFunction from './ControlledFunction';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   // <React.StrictMode>   // yesle garda console ma j kura ni double dekhinxa
-  <ControlledForm />
+  <ControlledFunction />
   // </React.StrictMode>
 );
 
