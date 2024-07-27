@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
-import FunctionInput2 from './FunctionInput2';
 import './index.css';
+import OtherInputs from './OtherInputs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   // <React.StrictMode>   // yesle garda console ma j kura ni double dekhinxa
-  <FunctionInput2 />
+  <OtherInputs />
   // </React.StrictMode>
 );
 
